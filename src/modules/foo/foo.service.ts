@@ -3,7 +3,6 @@ import { autoInjectable } from 'tsyringe';
 
 import { ERROR_CLASSES } from '../../util/error.util';
 
-
 @autoInjectable()
 export default class FooService {
   fooRepository: FooRepository;
